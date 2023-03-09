@@ -1,0 +1,52 @@
+.Header-main{
+    background-image: url(assets/images/bg-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 680px;
+}
+.overlay{
+    background-color: #000000;
+    opacity: 0.61;
+    height: 680px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.navbar .btn {
+    color: #ffffff;
+}
+
+.navbar .btn:hover {
+    color: #FFAB3D;
+}
+.navbar .dropdown-item {
+
+    color: #FFAB3D;
+
+}
+.navbar .dropdown-item:hover {
+    color: #ffffff;
+
+    background-color: #2a2d30;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+.Header-main .navbar-expand-lg .navbar-collapse {
+
+    justify-content: flex-end;
+}
+
+.hero .row{
+    height: 400px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+}
